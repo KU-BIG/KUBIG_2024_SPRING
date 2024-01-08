@@ -1,5 +1,4 @@
 # KUBIG_2024_SPRING
-Repository for codes from study sessions and projects during KUBIG 2023 FALL (학회장 김지윤 김희준 문성빈)
 
 ### 고려대학교 최초의 데이터 사이언스 & 인공지능 학회
 
