@@ -16,8 +16,6 @@
 ## Contact
 
   <a href="https://www.instagram.com/kubig.official"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white&link=https://www.instagram.com/woo0_hooo/"/></a>
-<a href="https://spectrum-title-805.notion.site/KUBIG-525637dea0aa43d9a7da1bd51e69b153?pvs=4"><img src="https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white&style=flat-square&color=brightgreen" width="75" height="28">
-</a> 
 <a href="mailto:kubigkorea@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=viliketh1s98@naver.com"/></a>
 </a>
 <br>
