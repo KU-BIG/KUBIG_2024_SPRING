@@ -7,12 +7,12 @@ Session Leader: 17기 김지윤, 17기 김연규
 - 관련 논문 리뷰를 통한 background 이해
 
 ## [진행 방식]
-Textbook : Dive into Deep Learning + 자체 제작 PPT
-Assignment : Pytorch Coding + Paper Reading 
+Textbook : Dive into Deep Learning + 자체 제작 PPT  \\
+Assignment : Pytorch Coding + Paper Reading  \\
 
-스터디 전 : Dive into Deep Learning 예습
-스터디 중 : Session Leader의 강의
-스터디 후 : 코딩 실습 과제 및 해설 공부
+스터디 전 : Dive into Deep Learning 예습 \\
+스터디 중 : Session Leader의 강의 \\
+스터디 후 : 코딩 실습 과제 및 해설 공부 \\
   
 ## [커리큘럼]
 |주차|진도내용|
