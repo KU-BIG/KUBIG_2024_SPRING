@@ -1,4 +1,3 @@
-![image](https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/103344737/aea94578-594d-4d8a-8fc0-e7dbe4880350)
 # 24-W CV Basic Study Session
 Session Leader: 17기 문성빈, 17기 임청수
 
