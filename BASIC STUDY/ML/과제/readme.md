@@ -14,6 +14,6 @@
 
 6주차 : 팀 프로젝트 발표
 
-7주차 : KUBIG CONTEST 중간점검
+7주차 : 팀 프로젝트 발표 / KUBIG CONTEST 중간점검
 
 8주차 : KUBIG CONTEST (추후 공지)
