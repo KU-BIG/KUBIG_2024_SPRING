@@ -1,5 +1,8 @@
 # 🦩 OpenFlamingo를 활용한 Multimodal task 구현
+CV 2팀 : 강지윤 / 백성은
 <br>
+<br>
+
 
 ## Paper List
 
