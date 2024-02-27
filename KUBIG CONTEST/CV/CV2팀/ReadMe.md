@@ -1,5 +1,5 @@
 # 🦩 OpenFlamingo를 활용한 Multimodal task 구현
-CV 2팀 : 강지윤 / 백성은
+CV 2팀 : 18기 백성은 / 19기 강지윤
 <br>
 <br>
 
