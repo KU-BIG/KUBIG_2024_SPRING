@@ -1,8 +1,8 @@
 프로젝트 설명
 =============
 
-월간 데이콘 예술 작품 화가 분류 AI 경진대회
-    (https://dacon.io/competitions/official/236006/overview/description)
+월간 데이콘 예술 작품 화가 분류 AI 경진대회   
+    (https://dacon.io/competitions/official/236006/overview/description)   
 예술 작품의 일부분만 주어지는 테스트 데이터셋에 대해 올바르게 화가를 분류해내는 Multilabel Classification CNN 태스크
 
 * 학습 데이터셋은 대표적인 화가 50명에 대한 예술 작품 이미지 제공(5911개)
