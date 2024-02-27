@@ -10,7 +10,7 @@ CV 2팀 : 18기 백성은 / 19기 강지윤
 
 [Prompt Engineering in Image Captioning Paper](https://arxiv.org/abs/2211.09699)
 
-[Prompt Engineering in Hateful Memes](https://arxiv.org/abs/2308.01390) 
+[Prompt Engineering in Hateful Memes](https://arxiv.org/abs/2302.04156) 
 
 <br>
 
