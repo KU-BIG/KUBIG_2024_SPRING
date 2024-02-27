@@ -1,4 +1,4 @@
-![image](https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/ac00c9a4-5745-4f8c-adf8-c73655dbd98d)# KUBIG CONTEST NLP TEAM 2: ITSUM (working)
+# KUBIG CONTEST NLP TEAM 2: ITSUM (working)
 
 This repository is the implementation of Basic Study: NLP Team 2.
 Our team have made a platform service which sends the summarization & keywords of IT/Science articles within 7 days through KaKaoTalk to clients.
