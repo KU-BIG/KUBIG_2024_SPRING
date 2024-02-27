@@ -7,6 +7,7 @@ https://dacon.io/competitions/official/236216/overview/description
 본 프로젝트의 목표는 도배 하자에 대한 질문의 답변을 생성하는 것으로, 구체적으로는 다음과 같은 인사이트를 얻고자 하였다.
 
 <img width="563" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/138692039/c03d3001-c6c7-4153-9d4f-1f8a72ec36b0">
+
 ## 데이터 소개
 ### Train data
 1. id : 샘플 고유 번호
