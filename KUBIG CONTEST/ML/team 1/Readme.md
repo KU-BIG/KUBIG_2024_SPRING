@@ -54,7 +54,6 @@ https://dacon.io/competitions/official/235893/overview/description
 - 'Pass_Customer' : 가장 과거 시점의 회사 등록일부터 지난 일수
 ### 데이터 전처리 과정을 거쳐 최종적으로 사용할 변수 확정
 ### PyCaret Automl & H2O Automl 통해 모델 선정
-### optuna 통해 최적의 파라미터 산출]
+NMAE를 통해 성능 평가를 진행하였고 PyCaret과 H2O 라이브러리를 통해 모델링을 진행하였을 때, 성능이 좋게 나타난 모델은 LGBMRegressor, XGBRegressor, CatBoostRegressor, GradientBoostingRegressor, ExtraTreesRegressor, RandomForestRegressor 이었다. 
+### optuna 통해 최적의 파라미터 산출
 ### 데이터 기반 솔루션 제공을 위한 Clustering 수행
-
-## 
