@@ -22,3 +22,11 @@ https://dacon.io/competitions/official/236216/overview/description
 베이스 모델로는 Kogpt2, LLAMA-2-ko-7b, SOLAR-10.7B, Gemma-7B를 선택하였다.
 
 더불어 프로젝트의 메인인 "RAG"모델도 활용하였다. 
+
+## 결론
+||FineTuning|RAG|FineTuning+RAG|
+|------|---|---|---|
+|Kogpt2|0.642(U.Q.)/ 0.699|-|0.710|
+|SOLAR-10.7B|-|0.660|0.680|
+|LLAMA-2-ko-7b|-|0.621(U.Q.) / 0.701|-|
+|Gemma-7B|-|-|0.632|
