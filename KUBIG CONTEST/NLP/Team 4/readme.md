@@ -25,7 +25,7 @@ https://dacon.io/competitions/official/236216/overview/description
 
 ## 결론
 ||FineTuning|RAG|FineTuning+RAG|
-|------|---|---|---|
+|:---:|:---:|:---:|:---:|
 |Kogpt2|0.642(U.Q.)/ 0.699|-|0.710|
 |SOLAR-10.7B|-|0.660|0.680|
 |LLAMA-2-ko-7b|-|0.621(U.Q.) / 0.701|-|
