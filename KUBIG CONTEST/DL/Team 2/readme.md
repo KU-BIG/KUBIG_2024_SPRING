@@ -17,7 +17,8 @@ Dacon의 CV 분류 예측 프로젝트 중 하나인 '글자에 가려진 숫자
 - BN + Pooling
 - BN + Pooling + Dropout
 - BN + Data Augmentation + Pooling + Dropout
-- Summary
+- Training Summary
+- Test Summary
 
 ### 2. 24W_DL2_SGD.ipynb: SGD optimizer 기반
 - Data Loading and EDA
@@ -27,7 +28,8 @@ Dacon의 CV 분류 예측 프로젝트 중 하나인 '글자에 가려진 숫자
 - BN + Pooling
 - BN + Pooling + Dropout
 - BN + Data Augmentation + Pooling + Dropout
-- Summary
+- Training Summary
+- Test Summary
 
 ### 3. 24W_DL2_GAN_CGAN.ipynb: GAN, CGAN 추가 시도 코드
 - Setup Environment
