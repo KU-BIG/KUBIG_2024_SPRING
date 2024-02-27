@@ -38,10 +38,10 @@
 4. EfficientNet b4 -> 이미지 380으로 학습하면 코랩 무료버전에서는 Cuda out of memory
 
 최종적으로 EfficientNet b3 모델 선정
+<br/>
+<br/>
+<br/>
 
-<br/>
-<br/>
-<br/>
 프로젝트 결과
 =============
 
