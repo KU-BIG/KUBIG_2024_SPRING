@@ -14,7 +14,7 @@
       
 프로젝트 진행
 =============
-<br/>       
+   
 ## EDA 및 전처리
 * 50명의 화가에 대한 그림의 개수가 매우 다름 (반 고흐는 600개, 잭슨 폴록은 20개)
   * weighted random sampling을 통해 모든 클래스에 대해 비슷한 개수의 샘플을 추출
@@ -22,7 +22,7 @@
   * 모델에 같은 차원의 이미지를 넣어주어야 하므로 .RGB를 통해 3차원으로 변경
 * ID 3896과 3986 값이 서로 바뀌어 있음
   * 인덱스 수정
-<br/>       
+
 ## Data Augmentation
 각각의 augmentation 진행할 확률을 0.5로 설정
 * RandomResizedCrop : 입력 이미지를 ¼ 크기로 crop
@@ -30,13 +30,13 @@
 * VerticalFlip : 상하반전
 * ShiftScaleRotate : 이미지 무작위 이동 + 크기 조절 + 회전
 * Normalize : R,G,B 평균값을 0으로. 각 pixel 값 – 평균 pixel 값
-<br/>       
+
 ## Model
 1. ResNet
 2. EfficientNet b0 -> 이미지 resolution을 맞추기 위해 224로 학습
 3. EfficientNet b3 -> 이미지 300으로 resize
 4. EfficientNet b4 -> 이미지 380으로 학습하면 코랩 무료버전에서는 Cuda out of memory
-<br/>       
+
 최종적으로 EfficientNet b3 모델 선정
 <br/>       
 <br/>
