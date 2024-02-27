@@ -35,3 +35,31 @@ Image Captioning은 Colab의 resource 한계로 qualitative evaluation으로 진
 |[TextVQA](https://arxiv.org/abs/1904.08920)|VQA|VQA accuracy|Generation|
 |[VizWiz](https://arxiv.org/abs/1802.08218)|VQA|VQA accuracy|Generation|
 |[Hateful Memes](https://arxiv.org/abs/2005.04790)|Classification|ROC AUC|Logprobs|
+
+
+
+## Evaluation
+
+### Hateful Memes (Image Classification)
+
+| Shots | Baseline | Accuracy | Prompt Engineering |
+|-------|----------|----------|--------------------|
+| 0     | 22.8     | 28.35    | X                  |
+| 2     | -        | 28.68    | O                  |
+| 4     | 25.8     | 30.04    | X                  |
+
+### Vizwiz (Visual Question Answering)
+
+| Shots | Baseline | Accuracy | Prompt Engineering |
+|-------|----------|----------|--------------------|
+| 0     | 15.4     | 18.51    | X                  |
+| 2     | -        | 18.49    | O                  |
+| 4     | 23.2     | 23.76    | X                  |
+
+### Textvqa (Visual Question Answering)
+| Shots | Baseline | Accuracy | Prompt Engineering |
+|-------|----------|----------|--------------------|
+| 0     | 15.4     | 18.51    | X                  |
+| 2     | -        | 18.49    | O                  |
+| 4     | 23.2     | 23.76    | X                  |
+
