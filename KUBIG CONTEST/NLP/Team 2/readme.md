@@ -20,6 +20,7 @@ Our team have made a platform service which sends the summarization & keywords o
 ### Evaluation
 
 - Rouge-1 Score:
+
 | Fine-Tuned KoBART | Rouge-1 | Rouge-2 | Rouge-L |
 |-------------------|:-------:|:-------:|---------|
 | Recall            |  0.6078 |  0.537  |  0.6078 |
