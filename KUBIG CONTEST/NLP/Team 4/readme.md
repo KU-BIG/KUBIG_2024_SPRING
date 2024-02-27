@@ -1,4 +1,6 @@
 # 24-Spring KUBIG CONTEST - NLP 분반 4팀
+## 코드
+https://github.com/Dozi01/Dacon_hansoldeco_LLM_RAG
 ## 팀원
 17기 황민아 18기 진서연 최유민
 ## 주제 : 도배 하자 질의 응답 처리 
@@ -31,5 +33,3 @@ https://dacon.io/competitions/official/236216/overview/description
 |LLAMA-2-ko-7b|-|0.621(U.Q.) / 0.701|-|
 |Gemma-7B|-|-|0.632|
 
-## 코드
-https://github.com/Dozi01/Dacon_hansoldeco_LLM_RAG
