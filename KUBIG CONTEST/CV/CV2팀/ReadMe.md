@@ -29,12 +29,10 @@ Image Captioning은 Colab의 resource 한계로 qualitative evaluation으로 진
 <br>
 
 ## Dataset
-- Image Captioning
-  - MS-COCO
-  
-- Visual Question Answering (VQA)
-  - Vizwiz
-  - Textvqa
-
-- Image Classification
-  - Hateful Memes
+|Dataset|Task|Metric|Evaluation method|
+|-------|----|------|-----------------|
+|[COCO](https://arxiv.org/abs/1405.0312)|Captioning|CIDEr|Generation|
+|[OK-VQA](https://arxiv.org/abs/1906.00067)|VQA|VQA accuracy|Generation|
+|[TextVQA](https://arxiv.org/abs/1904.08920)|VQA|VQA accuracy|Generation|
+|[VizWiz](https://arxiv.org/abs/1802.08218)|VQA|VQA accuracy|Generation|
+|[Hateful Memes](https://arxiv.org/abs/2005.04790)|Classification|ROC AUC|Logprobs|
