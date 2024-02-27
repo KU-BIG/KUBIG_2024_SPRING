@@ -1,4 +1,4 @@
-# 24-Spring KUBIG CONTEST -NLP 분반 4팀
+# 24-Spring KUBIG CONTEST - NLP 분반 4팀
 ## 팀원
 17기 황민아 18기 진서연 최유민
 ## 주제 : 도배 하자 질의 응답 처리 
