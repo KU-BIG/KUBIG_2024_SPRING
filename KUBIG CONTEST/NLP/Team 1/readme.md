@@ -6,19 +6,19 @@
 
 ### Dataset Info.
 
-train.csv [파일] 
-id : 질문 - 답변 (QA) 샘플 고유 번호
-질문_1, 질문_2 : 샘플 별 동일한 내용으로 구성된 질문 2개
-category : 질문 - 답변 (QA) 샘플의 도메인 세부 분야
-답변_1, 답변_2, 답변_3, 답변_4, 답변_5 : 샘플 별 질문에 대한 동일한 답변 Reference 5개 
+train.csv [파일]   
+id : 질문 - 답변 (QA) 샘플 고유 번호  
+질문_1, 질문_2 : 샘플 별 동일한 내용으로 구성된 질문 2개  
+category : 질문 - 답변 (QA) 샘플의 도메인 세부 분야  
+답변_1, 답변_2, 답변_3, 답변_4, 답변_5 : 샘플 별 질문에 대한 동일한 답변 Reference 5개   
 
 
-test.csv [파일]
-id : 평가 질문 샘플 고유 번호
-질문 : 평가 샘플의 질의 내용
+test.csv [파일]  
+id : 평가 질문 샘플 고유 번호  
+질문 : 평가 샘플의 질의 내용  
 
 
-sample_submission.csv [파일] - 제출 양식
-id : 평가 질문 샘플 고유 번호
-vec_0, vec_1 ... vec_511 : 생성된 답변을 512 차원의 Embedding Vector로 표현된 결과
+sample_submission.csv [파일] - 제출 양식  
+id : 평가 질문 샘플 고유 번호  
+vec_0, vec_1 ... vec_511 : 생성된 답변을 512 차원의 Embedding Vector로 표현된 결과  
 
