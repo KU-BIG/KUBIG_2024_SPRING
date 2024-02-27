@@ -1,1 +1,56 @@
-readme
+[DACON] 수화 이미지 분류 AI 해커톤
+
+- 1~10 label이 존재하는 수화 이미지를 정확히 분류하는 것이 목적
+- dacon 기준 성적 상위 팀의 모델을 학습 후 성능 개선
+
+[데이터 전처리]
+
+- 데이콘 내 데이터 파일 존재 X -> 깃헙링크를 통해 데이터 확보
+- 10-1, 10-2 label 존재 -> 10번 label로 통합
+- RGB 디코딩을 통해 텐서, 라벨(integer)의 튜플 형태의 데이터 = 피클 파일로 저장
+
+<전처리 과정 중 문제점>
+
+- 데이터 불균형
+- label 분류 오류
+- validation과 test간 성능 차이 매우 큼
+
+따라서, test set사용 X, train dataset 6:2:2 (train : validation : test) 형태로 분할해 사용
+
+[모델]
+
+1. GoogleNet
+
+최종 output, aux output 2가지로 총 3가지 output이 나오는 구조 (loss도 3가지로, 3가지 loss를 선형결합해 최종 loss결정)
+특정 label (2,3,7)에서 낮은 성능 (데이콘에서는 해당 label에 대해 regnet을 활용)
+transform : lr을 1e-05, distortion scale을 0.15 -> 0.1로 변경 후 나머지 optimizer, loss function, transform 기법 등은 변화 및 추가하지 않는 것이 성능이 더 좋았음
+네트워크 크기가 깊어져 파라미터 수 증가로 과적합 현상 발견 -> train data set의 수를 늘리는 것이 필요하다고 판단
+
+2. CNN + 10-fold
+
+main 데이터를 10 fold로 나누어 학습
+early stopping, 10-fold 교차검증을 통해 일반화 능력 향상 & 과적합 방지
+채널별 평균, 표준편차 계산해 정규화 진행
+증강기법 : 이미지 크기 조정, noise 추가, 밝기&대조 변경, 회전, 수평 뒤집기, 정규화 활용
+loss가 가장 작은 모델들의 평균 정확도와 평균 손실 출력해 early stopping에서 저장된 모델의 일반화 능력 잘 보존
+
+[두 모델에서의 문제점]
+
+1. GoogleNEt - 특정 label 성능이 매우 안좋음
+2. CNN + 10 fold - 전체적으로 낮은 정확도
+3. 전체적으로 test set, validation set간의 정확도 차이 매우 큼
+
+=> GoogleNet에 10-fold를 적용하자 (결론)
+
+[GoogleNet + 10-fold]
+
+1. test set의 문제 발견 -> train set 6:2:2로 분할
+2. 적은 수의 train set -> vertical flip & contour data & contour data vertical flip으로 4배 증강
+  but, 해당 학습 80분 소요 / 이보다 약간 낮은 정확도로 train + vertical flip 데이터셋은 40분 소요
+  따라서 학습 시간, 정확도가 trade-off로 후자 데이터셋 활용
+3. base GoogleNet으로 학습 -> 이중 성능이 낮은 3,8,10 label에 대해 10-fold 학습 (이 때에는 첫번째 주 output loss활용)
+
+[결과] - accuracy
+- validation set 1차 googlenet : 91.34%
+- validation set 10-fold 이후 : 97.67%
+- test set accuracy : 91.89%
