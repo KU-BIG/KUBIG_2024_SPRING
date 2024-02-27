@@ -36,7 +36,7 @@ Image Captioning은 Colab의 resource 한계로 qualitative evaluation으로 진
 |[VizWiz](https://arxiv.org/abs/1802.08218)|VQA|VQA accuracy|Generation|
 |[Hateful Memes](https://arxiv.org/abs/2005.04790)|Classification|ROC AUC|Logprobs|
 
-
+<br>
 
 ## Evaluation
 
