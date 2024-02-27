@@ -30,3 +30,6 @@ https://dacon.io/competitions/official/236216/overview/description
 |SOLAR-10.7B|-|0.660|0.680|
 |LLAMA-2-ko-7b|-|0.621(U.Q.) / 0.701|-|
 |Gemma-7B|-|-|0.632|
+
+## 코드
+https://github.com/Dozi01/Dacon_hansoldeco_LLM_RAG
