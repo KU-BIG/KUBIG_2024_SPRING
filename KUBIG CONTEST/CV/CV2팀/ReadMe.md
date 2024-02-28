@@ -50,16 +50,16 @@ Image Captioning은 Colab의 resource 한계로 qualitative evaluation으로 진
 
 ### Vizwiz (Visual Question Answering)
 
-| Shots | Baseline | Accuracy | Prompt Engineering |
-|-------|----------|----------|--------------------|
-| 0     | 15.4     | 18.51    | X                  |
-| 2     | -        | 18.49    | O                  |
-| 4     | 23.2     | 23.76    | X                  |
+| Shots | Baseline | Accuracy | 
+|-------|----------|----------|
+| 0     | 15.4     | 18.51    | 
+| 2     | -        | 18.49    | 
+| 4     | 23.2     | 23.76    | 
 
 ### Textvqa (Visual Question Answering)
-| Shots | Baseline | Accuracy | Prompt Engineering |
-|-------|----------|----------|--------------------|
-| 0     | 15.4     | 18.51    | X                  |
-| 2     | -        | 18.49    | O                  |
-| 4     | 23.2     | 23.76    | X                  |
+| Shots | Baseline | Accuracy | 
+|-------|----------|----------|
+| 0     | 15.4     | 18.51    | 
+| 2     | -        | 18.49    |
+| 4     | 23.2     | 23.76    | 
 
