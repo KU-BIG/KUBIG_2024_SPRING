@@ -94,7 +94,9 @@ https://dacon.io/competitions/official/17801/overview/description
 
 * Ham / Min : 낙찰가 / 최소경매가 비율. 최소 경매가의 상관관계 지수가 너무 높아 결과가 편향되는 것을 방지. 
 
-* Floor_rate : 해당 층수 / 아파트 전체 층수 비율. 아파트 층수 normalization 
+* Floor_rate : 해당 층수 / 아파트 전체 층수 비율. 아파트 층수 normalization
+
+### 실거래가 데이터를 반영하여 예측 성능 개선
 
 ### 모델 선정 
 
