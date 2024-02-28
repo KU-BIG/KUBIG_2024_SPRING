@@ -1,9 +1,9 @@
 # 한솔데코 시즌2 AI 경진대회
 #### NLP 1팀 김나연, 김송성, 안영지, 이승준
 ## [주제]
-https://dacon.io/competitions/official/236216/overview/description
 도배 하자 질의 응답 AI 모델 개발
 - 도배 하자 도메인에 대한 질의를 바탕으로 지능적인 응답을 생성하는 AI 모델 개발
+https://dacon.io/competitions/official/236216/overview/description
 
 ## Dataset Info.
 
