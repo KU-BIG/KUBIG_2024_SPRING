@@ -1,10 +1,12 @@
 # 한솔데코 시즌2 AI 경진대회
-## NLP 1팀 김나연, 김송성, 안영지, 이승준
+### NLP 1팀 김나연, 김송성, 안영지, 이승준
 ---
-### [주제]
+## [주제]
 도배 하자 질의 응답 AI 모델 개발
+- 도배 하자 도메인에 대한 질의를 바탕으로 지능적인 응답을 생성하는 AI 모델 개발
+https://dacon.io/competitions/official/236216/overview/description
 
-### Dataset Info.
+## Dataset Info.
 
 train.csv [파일]   
 - id : 질문 - 답변 (QA) 샘플 고유 번호  
@@ -23,7 +25,7 @@ sample_submission.csv [파일] - 제출 양식
 - vec_0, vec_1 ... vec_511 : 생성된 답변을 512 차원의 Embedding Vector로 표현된 결과  
 
 
-### Model
+## Model
 - kogpt2-base-v2
 - LDCC-SOLAR-10.7B
 - llama-2-ko-7b
