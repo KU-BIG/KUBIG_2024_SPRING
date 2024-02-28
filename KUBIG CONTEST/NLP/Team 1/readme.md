@@ -22,3 +22,12 @@ sample_submission.csv [파일] - 제출 양식
 id : 평가 질문 샘플 고유 번호  
 vec_0, vec_1 ... vec_511 : 생성된 답변을 512 차원의 Embedding Vector로 표현된 결과  
 
+
+### Model
+- kogpt2-base-v2
+- LDCC-SOLAR-10.7B
+- llama-2-ko-7b
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 LOCAL_RANK=0,1,2,3 torchrun --master_port 12345 --nproc_per_node 4 main.py
+```
