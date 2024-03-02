@@ -1,20 +1,23 @@
-# KUBIG CONTEST NLP TEAM 2: ITSUM (working)
+# KUBIG CONTEST NLP TEAM 2 
+## ITSUM: IT/Science Article Summarizaiton & Keyword-Extraction 
 
 This repository is the implementation of Basic Study: NLP Team 2.
-Our team have made a platform service which sends the summarization & keywords of IT/Science articles within 7 days through KaKaoTalk to clients.
+Our team have made a platform service which sends the summarization & keywords of IT/Science articles within 7 days through Steamlit, which is not shown in our presentation yet.
 
 {KaKaoTalk.png} {streamlit.png}
 
 ---
 ### Using Model: 
 - DBSCAN [1]
-- KoBERT {citation}
-- KoBART {citation}
+- KoBERT [2]
+  <img width="552" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/57cf5cf2-8840-48c5-898d-7395918c74b9">
+- KoBART [3]
+  <img width="374" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/8c40e67d-8b68-4698-aa23-303b6bf85adb">
 
 ---
 ### Platform Flow Chart
+![image](https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/18781183-1e90-4940-8a01-1b4ea876f68f)
 
-{png}
 
 ---
 ### Evaluation
@@ -36,9 +39,9 @@ output: (지디넷코리아=신영빈 기자)국내 서빙로봇 선두기업 �
 
 ---
 ### Role:
-- 서지민:
-- 임정준:
-- 최주희:
+- 17기_서지민: KoBERT Modeling & Presentation
+- 16기_임정준: KoBART Modeling & Crawling & Git
+- 19기_최주희: Keyword Extraction & Streamlit
 
 ---
 ### Citation
