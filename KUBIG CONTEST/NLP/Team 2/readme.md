@@ -4,15 +4,16 @@
 This repository is the implementation of Basic Study: NLP Team 2.
 Our team have made a platform service which sends the summarization & keywords of IT/Science articles within 7 days through Steamlit, which is not shown in our presentation yet.
 
-{KaKaoTalk.png} {streamlit.png}
+<img width="500" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/e21cfa97-3a97-4abc-bac6-d83b1582cf0a">
+
 
 ---
 ### Using Model: 
 - DBSCAN [1]
 - KoBERT [2]
-  <img width="552" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/57cf5cf2-8840-48c5-898d-7395918c74b9">
+  <img width="500" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/57cf5cf2-8840-48c5-898d-7395918c74b9">
 - KoBART [3]
-  <img width="374" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/8c40e67d-8b68-4698-aa23-303b6bf85adb">
+  <img width="500" alt="image" src="https://github.com/KU-BIG/KUBIG_2024_SPRING/assets/90594374/8c40e67d-8b68-4698-aa23-303b6bf85adb">
 
 ---
 ### Platform Flow Chart
