@@ -1,4 +1,4 @@
-# [KUBIG CONTEST NLP TEAM 2] ITSUM: IT/Science Article Summarizaiton & Keyword-Extraction 
+# [KUBIG CONTEST NLP TEAM 2] ITSUM: IT/Science Article Summarization & Keyword-Extraction 
 
 This repository is the implementation of Basic Study: NLP Team 2.
 Our team have made a platform service which sends the summarization & keywords of IT/Science articles within 7 days through Steamlit, which is not shown in our presentation yet.
