@@ -104,9 +104,9 @@ with st.sidebar.form('form', clear_on_submit=True):
             # First API Call
             completion_executor_1 = CompletionExecutor(
                 host='clovastudio.apigw.ntruss.com',
-                api_key='NTA0MjU2MWZlZTcxNDJiYzpCdGaklIyXuEPpOZHGfsvYxzac629fvGv456Y10sgW',
-                api_key_primary_val = 'H9SKYi4EHagBD0Nep7SWJ0T9LD4Z5vurEIuSQnpY',
-                request_id='b23967f0-2a8d-433d-96a1-3ae90e2b4a3b'
+                api_key='<API Key>',
+                api_key_primary_val = '<API Secret Key>',
+                request_id='<Request ID for Call 1>'
             )
 
             preset_text = user_input
@@ -137,9 +137,9 @@ with st.sidebar.form('form', clear_on_submit=True):
             # Second API Call (Emotion Score API)
             completion_executor_2 = CompletionExecutor(
                 host='clovastudio.apigw.ntruss.com',
-                api_key='NTA0MjU2MWZlZTcxNDJiY1QtvFM+zuln9DqRrtQMT5Xq1wrs69nE9dzZ3+hGRAH8',
-                api_key_primary_val='jgsmH29fjM0b3GEEPQV008G7bAyzEG48L6DMXxvb',
-                request_id='7619af78-5dfb-47e9-90fc-07fa15e2b101'
+                api_key='<API Key>',
+                api_key_primary_val = '<API Secret Key>',
+                request_id='<Request ID for Call 2>'
             )
 
             preset_text = input_2
@@ -156,9 +156,9 @@ with st.sidebar.form('form', clear_on_submit=True):
             # Third API Call (Cumulative Emotion API)
             completion_executor_3 = CompletionExecutor(
                 host='clovastudio.apigw.ntruss.com',
-                api_key='NTA0MjU2MWZlZTcxNDJiY1QtvFM+zuln9DqRrtQMT5Xq1wrs69nE9dzZ3+hGRAH8',
-                api_key_primary_val='jgsmH29fjM0b3GEEPQV008G7bAyzEG48L6DMXxvb',
-                request_id='7e89c200-0e68-4f73-a46f-18155afb2c1c'
+                api_key='<API Key>',
+                api_key_primary_val = '<API Secret Key>',
+                request_id='<Request ID for Call 3>'
             )
 
             preset_text = input_3
