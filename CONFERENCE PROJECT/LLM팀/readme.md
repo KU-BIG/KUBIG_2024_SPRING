@@ -1,5 +1,5 @@
 
-# AsKU : 에스쿠에게 물어봐
+# AsKU : LLM Agent for AI Researcher
 logo
 <img width="100" alt="getpaper" src="https://github.com/MinkyuRamen/kubig19th-conference-llm/assets/97013710/fe89e8ae-a4c8-4415-913c-1c2c3e22cff1">
 
