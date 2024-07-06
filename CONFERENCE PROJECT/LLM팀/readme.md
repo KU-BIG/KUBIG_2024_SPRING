@@ -1,6 +1,5 @@
 
 # AsKU : LLM Agent for AI Researcher
-logo
 <img width="100" alt="getpaper" src="https://github.com/MinkyuRamen/kubig19th-conference-llm/assets/97013710/fe89e8ae-a4c8-4415-913c-1c2c3e22cff1">
 
 전체 개요
@@ -13,7 +12,7 @@ Al 연구자들은 논문을 이해하고 정리하는데 LLM을 보조 도구�
 
 2. 전체 논문을 입력 후 질의응답 시 물필요한 정보가 많아 정확성 (Needle in a Haystack)
 
-3. 현재 사용되는 Tool은 Web Search, PDF Reader 등 제한적이기 때문에 유사 논문 추천 등의 고도화된 요청 처리 불가 우리는 이러한 한계를 극복한 새로운 LLM Agent ASKU을 제안한다.
+3. 현재 사용되는 Tool은 Web Search, PDF Reader 등 제한적이기 때문에 유사 논문 추천 등의 고도화된 요청 처리 불가 우리는 이러한 한계를 극복한 새로운 LLM Agent ASKU을 제안한다.  
 ### Function
 1. Load Paper
 -반복 호출 방식으로 필요한 부분만 불러올 수 있도록  LLM 의 행동 제어
@@ -47,7 +46,7 @@ codeanalysis는 (1) LLM이 user query를 보고 이에 맞는 code를 생성한 
 ### AsKU Lite
 
 ### HOW TO USE
-jupyter notebook
+AsKU.ipynb 참고
 
 • **use case**
 
